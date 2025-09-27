@@ -1,8 +1,8 @@
 -- Insert sample customers
-INSERT INTO customers VALUES (1001, 'John Doe', 'Kigali');
-INSERT INTO customers VALUES (1002, 'Jane Smith', 'Butare');
-INSERT INTO customers VALUES (1003, 'Paul Kagame', 'Kigali');
-INSERT INTO customers VALUES (1004, 'Alice Uwase', 'Huye');
+INSERT INTO customers VALUES (1001, 'Limpho Semakale', 'Kigali');
+INSERT INTO customers VALUES (1002, 'Elizabeth Semalane', 'Butare');
+INSERT INTO customers VALUES (1003, 'Keletso Gumenku', 'Kigali');
+INSERT INTO customers VALUES (1004, 'Lemohang Gumenku', 'Huye');
 
 -- Insert sample products
 INSERT INTO products VALUES (2001, 'Coffee Beans', 'Beverages');
