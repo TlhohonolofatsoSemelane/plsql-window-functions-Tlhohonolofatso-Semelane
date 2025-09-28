@@ -12,15 +12,15 @@ Date: 2025-09-28
 
 A Rwandan retail company runs an e-commerce platform specializing in beverages. The company’s mission is to optimize sales and marketing strategies to increase market share and profitability in a competitive sector.
 
-Data Challenge:
+## Data Challenge:
 
 Currently, management lacks deep insights into which products excel in different regions and quarters, how customers’ buying behavior shifts over time, and which customer segments offer the most potential. To address this, analytical queries must be developed that leverage sales transaction data for targeted business actions.
 
-Expected Outcome:
+## Expected Outcome:
 
 Advanced analysis will uncover the highest-performing products, define valuable customer segments, and highlight sales trends. These insights will empower management to make informed decisions about marketing campaigns, inventory management, and customer engagement initiatives.
 
-2.Success Criteria
+# Success Criteria
 
 Each goal was implemented and documented in both SQL scripts and screenshots:
 A. Top 5 products per region/quarter → RANK()
@@ -29,33 +29,33 @@ C. Month-over-month growth → LAG() / LEAD()
 D. Customer quartiles → NTILE(4)
 E. 3-month moving averages → AVG() OVER()
 
-3. Database Schema
+# Database Schema
 
 I created 3 tables: Customers, Products, Transactions.
 Customers – Stores customer info (customer_id, name, region)  
 Products – Product catalog (product_id, name, category)  
 Transactions – Sales records (transaction_id, customer_id, product_id, sale_date, amount)
 
-Screenshots:  
+### Screenshots:  
 ER Diagram:  
 <img width="960" height="540" alt="er_diagram" src="https://github.com/user-attachments/assets/b7b2c881-0848-4e0e-a499-fd6f3cc937a6" />
 
-4. Windows Functions
+# Windows Functions
    
-Ranking Functions:
+## Ranking Functions:
 
 Top N customers by total revenue—queries use ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK().
 <img width="960" height="540" alt="Top_5_products_per_region_by_sale_query" src="https://github.com/user-attachments/assets/dd75330b-2495-4812-86fd-2b9315ad84f6" />
 <img width="960" height="534" alt="Top_5_products_region_by_sale_output" src="https://github.com/user-attachments/assets/67832636-d9a1-49bd-9636-f475b78a4ca9" />
 Interpretation: Reveals highest spenders, ties, and overall ranking.
 
-Aggregate Functions:
+## Aggregate Functions:
 
 Running totals & trends: SUM(), AVG(), MIN(), MAX() with window frames.
 <img width="960" height="540" alt="Aggregate _running_monthly_sales_totals" src="https://github.com/user-attachments/assets/06873350-41cb-47bf-8442-fc694dc7e65c" />
 Interpretation: Cumulative spending, average purchase amounts per period.
 
-Navigation Functions:
+## Navigation Functions:
 
 Use LAG() & LEAD() for sales growth analysis and trend prediction.
 <img width="959" height="540" alt="Navigation_month-over-month_growth_calculation_query" src="https://github.com/user-attachments/assets/18c1a853-bbd6-473a-a67b-433cb4637f09" />
@@ -63,24 +63,24 @@ Use LAG() & LEAD() for sales growth analysis and trend prediction.
 <img width="958" height="536" alt="Navigation_month_over_month_growth_calculation_output" src="https://github.com/user-attachments/assets/08e4a0c3-2461-49d1-8153-9647ba3e636e" />
 Interpretation: Month-over-month comparisons and forecast preparation.
 
-Distribution Functions:
+## Distribution Functions:
 
 Apply NTILE(4) and CUME_DIST() for customer segmentation.
 <img width="958" height="535" alt="Distribution_Customers_quartiles_by_total_spending" src="https://github.com/user-attachments/assets/c64b5ab5-8090-4dfa-82ed-9c82970ae2f8" />
 Interpretation: Categorizes customer spending for targeted marketing programs.
 
-5. Results Analysis:
+# Results Analysis:
    
-A. Descriptive Analysis  
+## Descriptive Analysis  
 The analysis revealed that certain beverages such as premium coffee and flavored teas consistently rank as the top-selling products across multiple regions and quarters. Monthly sales totals showed an upward trend from January to March 2024, with noticeable spikes during promotional periods. Customer segmentation using quartiles indicated that roughly 25% of customers contribute over 60% of total sales, highlighting a concentrated group of high-value buyers. A three-month moving average smoothed sales fluctuations, confirming stable growth overall.
 
-B. Diagnostic Analysis  
+## Diagnostic Analysis  
 The strong sales performance of premium beverages is influenced by targeted marketing campaigns and seasonal demand aligned with holidays and festivals. Regions with higher urban density demonstrated greater sales volumes, likely due to better logistics and consumer purchasing power. Customer buying behavior analysis via navigation functions showed repeat purchases and gradual increases in spend among the top quartile segment, suggesting effective customer retention and satisfaction. Month-over-month growth variations correspond to promotional timing and competitor activity.
 
-C. Prescriptive Analysis  
+## Prescriptive Analysis  
 It is recommended to increase inventory and marketing budgets focused on high-performing products and regions, prioritizing the top customer quartile through loyalty programs and personalized offers. Expanding promotional activities during periods identified with growth spikes can amplify revenue. Additionally, regions showing lower sales could benefit from improved distribution and localized marketing efforts. Continued analysis using these window functions should guide dynamic inventory management and customer engagement strategies to maintain competitive advantage.
 
-7. References:
+# References:
 1. Oracle Corporation. (2023). Oracle Database SQL Language Reference – Analytic Functions. Retrieved from https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Analytic-Functions.html
 
 2. Oracle Tutorial. (2024). Oracle Analytic Functions Guide. Retrieved from https://www.oracletutorial.com/oracle-analytic-functions/
