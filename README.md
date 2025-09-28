@@ -51,8 +51,9 @@ Interpretation: Cumulative spending, average purchase amounts per period.
 
 Navigation Functions:
 Use LAG() & LEAD() for sales growth analysis and trend prediction.
-<img width="959" height="540" alt="Navigation_month-over-month_growth_calculation_query" src="https://github.com/user-attachments/assets/2df83ed9-194e-4a40-9d30-f5<img width="958" height="536" alt="Navigation_month_over_month_growth_calculation_output" src="https://github.com/user-attachments/assets/41ec9621-f763-462d-85e9-e5d38a32e378" />
-83fabfe22b" />
+<img width="959" height="540" alt="Navigation_month-over-month_growth_calculation_query" src="https://github.com/user-attachments/assets/18c1a853-bbd6-473a-a67b-433cb4637f09" />
+
+<img width="958" height="536" alt="Navigation_month_over_month_growth_calculation_output" src="https://github.com/user-attachments/assets/08e4a0c3-2461-49d1-8153-9647ba3e636e" />
 Interpretation: Month-over-month comparisons and forecast preparation.
 
 Distribution Functions:
@@ -61,6 +62,7 @@ Apply NTILE(4) and CUME_DIST() for customer segmentation.
 Interpretation: Categorizes customer spending for targeted marketing programs.
 
 5. Results Analysis:
+   
 A. Descriptive Analysis  
 The analysis revealed that certain beverages such as premium coffee and flavored teas consistently rank as the top-selling products across multiple regions and quarters. Monthly sales totals showed an upward trend from January to March 2024, with noticeable spikes during promotional periods. Customer segmentation using quartiles indicated that roughly 25% of customers contribute over 60% of total sales, highlighting a concentrated group of high-value buyers. A three-month moving average smoothed sales fluctuations, confirming stable growth overall.
 
