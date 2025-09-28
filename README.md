@@ -32,6 +32,6 @@ Transactions – Sales records (transaction_id, customer_id, product_id, sale_da
 
  Screenshots:
 ER Diagram Placeholder:
-![Alt text](er_diagram/er_diagram.PNG)
+![ER Diagram](screenshots/screenshots_er_diagram_er_diagram.PNG)
 
 
