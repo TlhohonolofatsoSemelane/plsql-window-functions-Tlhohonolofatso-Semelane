@@ -1,7 +1,3 @@
-Below is an improved and updated README.md file, incorporating detailed structure, execution steps, query list, and best-practice formatting for your PL/SQL Window Functions project in Oracle SQL Developer:[5][6][11]
-
-***
-
 # PL/SQL Window Functions Mastery Project
 
 ## Project Description
