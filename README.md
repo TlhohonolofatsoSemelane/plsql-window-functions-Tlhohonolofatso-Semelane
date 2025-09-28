@@ -30,8 +30,6 @@ Customers – Stores customer info (customer_id, name, region)
 Products – Product catalog (product_id, name, category)  
 Transactions – Sales records (transaction_id, customer_id, product_id, sale_date, amount)
 
- Screenshots:
-ER Diagram Placeholder:
+Screenshots:  
+ER Diagram:  
 ![ER Diagram](screenshots/screenshots_er_diagram_er_diagram.PNG)
-
-
