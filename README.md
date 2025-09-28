@@ -6,9 +6,9 @@ Instructor: Eric Maniraguha
 
 Date: 2025-09-28
 
-Problem Definition
+# Problem Definition
 
-Business Context:  
+## Business Context:  
 
 A Rwandan retail company runs an e-commerce platform specializing in beverages. The company’s mission is to optimize sales and marketing strategies to increase market share and profitability in a competitive sector.
 
