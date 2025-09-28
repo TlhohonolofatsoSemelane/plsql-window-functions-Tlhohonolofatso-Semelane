@@ -32,8 +32,6 @@ Transactions – Sales records (transaction_id, customer_id, product_id, sale_da
 
 Screenshots:  
 ER Diagram:  
-Screenshots:  
-ER Diagram:  
 <img width="960" height="540" alt="er_diagram" src="https://github.com/user-attachments/assets/b7b2c881-0848-4e0e-a499-fd6f3cc937a6" />
 
 4. Windows Functions
