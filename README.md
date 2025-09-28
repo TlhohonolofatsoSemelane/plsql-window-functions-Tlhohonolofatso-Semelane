@@ -37,6 +37,7 @@ ER Diagram:
 <img width="960" height="540" alt="er_diagram" src="https://github.com/user-attachments/assets/b7b2c881-0848-4e0e-a499-fd6f3cc937a6" />
 
 4. Windows Functions
+   
 Ranking: Top 5 products per region by sales
 <img width="960" height="540" alt="Top_5_products_per_region_by_sale_query" src="https://github.com/user-attachments/assets/dd75330b-2495-4812-86fd-2b9315ad84f6" />
 <img width="960" height="534" alt="Top_5_products_region_by_sale_output" src="https://github.com/user-attachments/assets/67832636-d9a1-49bd-9636-f475b78a4ca9" />
